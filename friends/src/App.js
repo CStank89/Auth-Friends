@@ -8,10 +8,10 @@ import {
   Switch,
   NavLink,
 } from "react-router-dom";
-import Login from "./Components/Login";
-import Register from "./Components/FriendsList";
-import FriendsList from "./Components/FriendsList";
-import PrivateRoute from "./Components/PrivateRoute";
+import Login from "./components/Login";
+import Register from "./components/FriendsList";
+import FriendsList from "./components/FriendsList";
+import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
   return (
