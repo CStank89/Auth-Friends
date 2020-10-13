@@ -3,7 +3,7 @@ import axiosWithAuth from "../utils/axiosWithAuth";
 import AddFriend from "./AddFriend";
 
 const FriendsList = () => {
-  const [friends, setFriends] = useState({});
+  const [friends, setFriends] = useState([]);
 
   useEffect(() => {}, [friends]);
 
